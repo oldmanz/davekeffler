@@ -1,53 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Keffler Kronicles</title>
+</head>
+<body>
 
-<html>
-	<head>
-		<title>Dave Keffler</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<style>
+	body {
+		margin:0;
+		padding:0;
+		background-color:#F8F0E3;
+	}
+	div {
+		width:800px;
+		margin:0 auto;
+	}
+</style>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+<style>
+	/* customizable snowflake styling */
+	.snowflake {
+	  color: #fff;
+	  font-size: 1em;
+	  font-family: Arial, sans-serif;
+	  text-shadow: 0 0 5px #000;
+	}
+	 
+	.snowflake,.snowflake .inner{animation-iteration-count:infinite;animation-play-state:running}@keyframes snowflakes-fall{0%{transform:translateY(0)}100%{transform:translateY(110vh)}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;user-select:none;cursor:default;pointer-events:none;animation-name:snowflakes-shake;animation-duration:3s;animation-timing-function:ease-in-out}.snowflake .inner{animation-duration:10s;animation-name:snowflakes-fall;animation-timing-function:linear}.snowflake:nth-of-type(0){left:1%;animation-delay:0s}.snowflake:nth-of-type(0) .inner{animation-delay:0s}.snowflake:first-of-type{left:10%;animation-delay:1s}.snowflake:first-of-type .inner,.snowflake:nth-of-type(8) .inner{animation-delay:1s}.snowflake:nth-of-type(2){left:20%;animation-delay:.5s}.snowflake:nth-of-type(2) .inner,.snowflake:nth-of-type(6) .inner{animation-delay:6s}.snowflake:nth-of-type(3){left:30%;animation-delay:2s}.snowflake:nth-of-type(11) .inner,.snowflake:nth-of-type(3) .inner{animation-delay:4s}.snowflake:nth-of-type(4){left:40%;animation-delay:2s}.snowflake:nth-of-type(10) .inner,.snowflake:nth-of-type(4) .inner{animation-delay:2s}.snowflake:nth-of-type(5){left:50%;animation-delay:3s}.snowflake:nth-of-type(5) .inner{animation-delay:8s}.snowflake:nth-of-type(6){left:60%;animation-delay:2s}.snowflake:nth-of-type(7){left:70%;animation-delay:1s}.snowflake:nth-of-type(7) .inner{animation-delay:2.5s}.snowflake:nth-of-type(8){left:80%;animation-delay:0s}.snowflake:nth-of-type(9){left:90%;animation-delay:1.5s}.snowflake:nth-of-type(9) .inner{animation-delay:3s}.snowflake:nth-of-type(10){left:25%;animation-delay:0s}.snowflake:nth-of-type(11){left:65%;animation-delay:2.5s}
+	</style>
+	<div class="snowflakes" aria-hidden="true">
+	  <div class="snowflake">
+		<div class="inner">❅</div>
+	  </div>
+	  <div class="snowflake">
+		<div class="inner">❅</div>
+	  </div>
+	  <div class="snowflake">
+		<div class="inner">❅</div>
+	  </div>
+	  <div class="snowflake">
+		<div class="inner">❅</div>
+	  </div>
+	  <div class="snowflake">
+		<div class="inner">❅</div>
+	  </div>
+	  <div class="snowflake">
+		<div class="inner">❅</div>
+	  </div>
+	  <div class="snowflake">
+		<div class="inner">❅</div>
+	  </div>
+	  <div class="snowflake">
+		<div class="inner">❅</div>
+	  </div>
+	  <div class="snowflake">
+		<div class="inner">❅</div>
+	  </div>
+	  <div class="snowflake">
+		<div class="inner">❅</div>
+	  </div>
+	  <div class="snowflake">
+		<div class="inner">❅</div>
+	  </div>
+	  <div class="snowflake">
+		<div class="inner">❅</div>
+	  </div>
+	</div>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Dave Keffler</a></h1>
+    <div>
+        
 
-					</header>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="m_-3552067282503927619templateContainer" style="border-collapse: collapse; border: 0px; color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: rgb(250, 250, 250); max-width: 600px !important; width: 600px !important;">
+			<tbody>
+			<tr>
+			<td valign="top" id="m_-3552067282503927619templatePreheader" style="margin: 0px; background-image: none; background-position: center center; background-size: cover; background-repeat: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; border-top: 0px; border-bottom: 0px; padding-top: 9px; padding-bottom: 9px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; min-width: 100%;">
+			<tbody>
+			<tr>
+			<td valign="top" style="margin: 0px;"><table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" class="m_-3552067282503927619mcnBoxedTextContentContainer" style="border-collapse: collapse; min-width: 100%; float: left;">
+			<tbody>
+			<tr>
+			<td style="margin: 0px; padding: 9px 18px;"><table border="0" cellspacing="0" class="m_-3552067282503927619mcnTextContentContainer" width="100%" style="border-collapse: collapse; background-color: rgb(220, 20, 60); min-width: 100%;">
+			<tbody>
+			<tr>
+			<td valign="top" class="m_-3552067282503927619mcnTextContent" style="margin: 0px; word-break: break-word; color: rgb(0, 0, 128); font-family: Helvetica; font-size: 14px; line-height: 21px; text-align: center; padding: 18px;"><span style="font-size: 50px;"><span style="font-family: verdana, geneva, sans-serif;">The <span class="il">Keffler</span> Kronicles</span></span></td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
+			</td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
+			</td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
+			</td>
+			</tr>
+			
+			<tr>
+			<td valign="top" id="m_-3552067282503927619templateHeader" style="margin: 0px; background: none center center / cover no-repeat rgb(255, 255, 255); border-top: 0px; border-bottom: 0px; padding-top: 9px; padding-bottom: 0px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; min-width: 100%;">
+			<tbody>
+			<tr>
+			<td valign="top" style="margin: 0px; padding-top: 9px;"><table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" class="m_-3552067282503927619mcnTextContentContainer" style="border-collapse: collapse; max-width: 100%; min-width: 100%; float: left;">
+			<tbody>
+			<tr>
+			<td valign="top" class="m_-3552067282503927619mcnTextContent" style="margin: 0px; word-break: break-word; color: rgb(0, 127, 255); font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; font-size: 15px; line-height: 22.5px; padding: 0px 18px 9px;"><div style="text-align: center;"><span style="font-size: 24px;">H2O Church @ Western Michigan University</span></div></td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
+			</td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
+			<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; min-width: 100%;">
+			<tbody>
+			<tr>
+			<td valign="top" style="margin: 0px; padding: 9px;"><table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; min-width: 100%; float: left;">
+			<tbody>
+			<tr>
+			<td valign="top" style="margin: 0px; padding: 0px 9px; text-align: center;"><img align="center" alt="" src="https://ci3.googleusercontent.com/meips/ADKq_NZVTMf9-DZcNfmMUO-GxU9NBV4zKQit_NEE-SWWDoKbDN0qitTVYQTj9sLjSokopoxoJ8SGYYTzk_lhIdOxeHDLDPlU6eYR-yRpco5IIkdGJG7K6tTAEzgL2EhQ5oXybwHCS6HRyPH3_N1iZFbxFmuV8pqbRyn0Fxg=s0-d-e1-ft#https://mcusercontent.com/0705e7b7b982d8c8b703ce340/images/3c1d0c12-6e75-c87c-52a6-07645bcfaaf4.png" width="564" class="m_-3552067282503927619mcnImage CToWUd a6T" data-bit="iit" tabindex="0" style="cursor: pointer; outline: none; border: 0px; height: auto; vertical-align: bottom; max-width: 1211px; padding-bottom: 0px; display: inline !important;"></td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
+			</td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
+			</td>
+			</tr>
+			
+			<tr>
+			<td valign="top" id="m_-3552067282503927619templateBody" style="margin: 0px; background: none center center / cover no-repeat rgb(255, 255, 255); border-top: 0px; border-bottom: 0px; padding-top: 9px; padding-bottom: 0px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="m_-3552067282503927619mcnDividerBlock" style="border-collapse: collapse; table-layout: fixed !important; min-width: 100%;">
+			<tbody>
+			<tr>
+			<td style="margin: 0px; min-width: 100%; padding: 18px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; min-width: 100%; border-top: 2px solid rgb(0, 0, 205);">
+			<tbody>
+			<tr>
+			<td style="margin: 0px;"></td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
+			</td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
+			<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; min-width: 100%;">
+			<tbody>
+			<tr>
+			<td valign="top" style="margin: 0px; padding-top: 9px;"><table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" class="m_-3552067282503927619mcnTextContentContainer" style="border-collapse: collapse; max-width: 100%; min-width: 100%; float: left;">
+			<tbody>
+			<tr>
+			<td valign="top" class="m_-3552067282503927619mcnTextContent" style="margin: 0px; word-break: break-word; color: rgb(32, 32, 32); font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; font-size: 15px; line-height: 22.5px; padding: 0px 18px 9px;"><div style="text-align: center;"><h3 style="margin: 0px; padding: 0px; font-family: Helvetica; font-size: 20px; line-height: 25px; text-align: left;"><font color="#007fff"><span style="font-size: 18px;">Thank you and Happy New Year!</span></font></h3>
+			
+			</div><div><p dir="ltr" style="margin: 10px 0px; padding: 0px; line-height: 22.5px;">First, thank you to everyone who has helped with an end of the year gift! These gifts help my ministry reach students on campus at WMU and beyond.
+			
+			As I look ahead to 2025 I'm excited to see what God is doing at H2O and in Collegiate Church Network. We've already got many things planned including a winter retreat on Jan 9-10th in Ann Arbor, The Well, Spring break, and LT to name a few. I'm excited to see what God will do at all of those things as well as the day to day around campus.
+			
+			<strong>Thank you for all the ways you have prayed and given to help God’s Kingdom come at WMU and in the lives of college students!</strong>
+			
+			<strong><font color="#007fff"><span style="font-size: 18px;">Year end giving update</span></font></strong></p>
+			
+			<p style="margin: 10px 0px; padding: 0px; line-height: 22.5px;">To help make these things happen, I am trusting God to provide $11,000 in year-end gifts. So far, people have generously given and God has provided just over 60% of that goal. <strong>If you would still like to give a year end special gift, it’s not too late. You can give at <a href="https://h2oindiana.us12.list-manage.com/track/click?u=0705e7b7b982d8c8b703ce340&amp;amp;id=53f626bd45&amp;amp;e=d11dde125c" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://h2oindiana.us12.list-manage.com/track/click?u%3D0705e7b7b982d8c8b703ce340%26id%3D53f626bd45%26e%3Dd11dde125c&amp;amp;source=gmail&amp;amp;ust=1738466600524000&amp;amp;usg=AOvVaw3xMp7YjW66JxJsUCTWMOP7" style="color: rgb(0, 124, 137); font-weight: normal;">reliant.org/<span class="il">Dave</span>.<span class="il">Keffler</span>.</a></strong>
+			
+			<strong>Thank you for considering and for all the ways you give and pray! We do this work together! In faith, we are helping others know and follow Jesus.</strong></p>
+			
+			<p dir="ltr" style="margin: 10px 0px; padding: 0px; line-height: 22.5px;">With Love and gratitude,</p>
+			
+			<p dir="ltr" style="margin: 10px 0px; padding: 0px; line-height: 22.5px;"><span class="il">Dave</span> <span class="il">Keffler</span></p>
+			
+			 </div></td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
+			</td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
+			<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; min-width: 100%;">
+			<tbody>
+			<tr>
+			<td valign="top" align="center" style="margin: 0px; padding: 0px 18px 18px;"><table border="0" cellpadding="0" cellspacing="0" style="border-radius: 3px; background-color: rgb(43, 170, 223);">
+			<tbody>
+			<tr>
+			<td align="center" valign="middle" style="margin: 0px; font-family: Arial; font-size: 16px; padding: 15px;"><a class="m_-3552067282503927619mcnButton" title="Give here" href="https://h2oindiana.us12.list-manage.com/track/click?u=0705e7b7b982d8c8b703ce340&amp;amp;id=c461412202&amp;amp;e=d11dde125c" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://h2oindiana.us12.list-manage.com/track/click?u%3D0705e7b7b982d8c8b703ce340%26id%3Dc461412202%26e%3Dd11dde125c&amp;amp;source=gmail&amp;amp;ust=1738466600524000&amp;amp;usg=AOvVaw07O5ADzTTPwhx_rodlX6lQ" style="color: rgb(255, 255, 255); display: block; font-weight: bold; line-height: 16px; text-decoration-line: none;">Give here</a></td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
+			</td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
+			<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; min-width: 100%;">
+			<tbody>
+			<tr>
+			<td valign="top" style="margin: 0px; padding-top: 9px;"><table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" class="m_-3552067282503927619mcnTextContentContainer" style="border-collapse: collapse; max-width: 100%; min-width: 100%; float: left;">
+			<tbody>
+			<tr>
+			<td valign="top" class="m_-3552067282503927619mcnTextContent" style="margin: 0px; word-break: break-word; color: rgb(32, 32, 32); font-family: Helvetica; font-size: 16px; line-height: 24px; padding: 0px 18px 9px;"><div style="text-align: center;"><font color="#007fff"><span style="font-size: 18px;">Thanks for all your love and support!</span></font></div></td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
+			</td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
+			</td>
+			</tr>
+			
+			</tbody>
+			</table>
+			
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<div class="logo"><span class="icon fa-gem"></span></div>
-							<h2>Dave Keffler</h2>
-						</div>
-					</section>
+			
 
-				<!-- Wrapper -->
-					<section id="wrapper">
+    </div>
+</body>
 
-						<!-- One -->
-							<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/logo.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Website Coming Soon</h2>
-									</div>
-								</div>
-							</section>
-
-					</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
